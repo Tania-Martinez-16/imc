@@ -1,5 +1,6 @@
 package com.taniamartinez.android.imc;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -9,7 +10,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
     private EditText mCampoPeso;
     private EditText mCampoEstatura;
     private Button mBotonCalcular;
@@ -48,5 +48,6 @@ public class MainActivity extends AppCompatActivity {
                 mEtiquetaImc.setText("0.0");
             }
         });
+
     }
 }
