@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 mEtiquetaImc.setText(s);
             }
         });
-
+// esta es solo una prueba para ver que funcione git bash
         mBotonLimpiar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
